@@ -568,7 +568,6 @@ while running:
             for unit in group:
                 unit.image.fill(White)
                 unit.rect = unit.rect.move (unit.run_speed)
-
                 if unit.rect.top <= 0 or unit.rect.left <= 0 or unit.rect.right >= size[0]:
                     unit.kill()
 
@@ -595,9 +594,11 @@ while running:
     action_text = score_font.render(str(act_list), True, (White))
     p1_text = score_font.render(str(p1_count), True, (C1))
     p2_text = score_font.render(str(p2_count), True, (C2))
+    k_text = score_font.render(str(k + 1), True, (White))
     screen.blit(action_text, (30, 20))
     screen.blit(p1_text, (1400, 20))
     screen.blit(p2_text, (1400, 40))
+    screen.blit(k_text, (30, 40))
     pygame.display.update()
 
 pygame.time.delay(500)
