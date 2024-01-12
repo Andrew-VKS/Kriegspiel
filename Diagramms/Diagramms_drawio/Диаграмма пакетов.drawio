@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-01-12T11:17:53.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="N3clSDOWAEtMKlxxlN6l" version="22.1.18" type="device">
+  <diagram name="Страница — 1" id="-9y93jH47MJVGbrXM4j5">
+    <mxGraphModel dx="1053" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-1" value="База данных" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="574" y="30" width="285" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.501;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-2" target="kvTZ8B0482PcZTSpZ6St-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-2" value="Пользователь" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="114" y="41" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-3" value="Приложение" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="114" y="155" width="417" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-4" value="Таблица&lt;br&gt;infantry" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="597" y="170" width="91" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-5" value="Таблица&lt;br&gt;artillery" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="709" y="170" width="91" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-6" value="Таблица&lt;br&gt;countries" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="597" y="56" width="91" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-7" value="Показать доступные страны" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="151" y="187" width="99" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-8" value="Создать армии" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="385" y="257" width="109" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=38.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=99;entryDy=45;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-6" target="kvTZ8B0482PcZTSpZ6St-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=109;entryDy=28.5;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-4" target="kvTZ8B0482PcZTSpZ6St-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=109;entryDy=57.5;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-5" target="kvTZ8B0482PcZTSpZ6St-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=28.5;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-7" target="kvTZ8B0482PcZTSpZ6St-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-15" value="выбрать отряд" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="383" y="371" width="123" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-16" value="Выполнить действие с отрядом" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="237" y="367" width="112" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=39.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=112;entryDy=43.5;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-15" target="kvTZ8B0482PcZTSpZ6St-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.455;entryY=0.209;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="kvTZ8B0482PcZTSpZ6St-8" target="kvTZ8B0482PcZTSpZ6St-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvTZ8B0482PcZTSpZ6St-19" value="Завершение хода" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="129" y="367" width="85" height="71" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
