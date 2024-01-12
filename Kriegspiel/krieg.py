@@ -384,6 +384,7 @@ dict_n = dict_2
 cur.execute("""SELECT core_distance, core_error, grapeshot_count, grapeshot_distance, grapeshot_error from artillery where country_id = (%s)""", (p1,))
 c_dist, c_er, g_co, g_dist, g_er = cur.fetchall()[0]
 
+# создание орудий первого игрока
 cannon1 = Cannon(600, 600, 'resources/canon.png', c_dist, c_er, g_co, g_dist, g_er)
 add_cannon(cannon1, cannons1)
 cannon2 = Cannon(635, 600, 'resources/canon.png', c_dist, c_er, g_co, g_dist, g_er)
@@ -394,6 +395,7 @@ add_cannon(cannon3, cannons1)
 cur.execute("""SELECT core_distance, core_error, grapeshot_count, grapeshot_distance, grapeshot_error from artillery where country_id = (%s)""", (p2,))
 c_dist, c_er, g_co, g_dist, g_er = cur.fetchall()[0]
 
+# создание орудий второго игрока
 cannon4 = Cannon(750, 185, 'resources/canon2.png', c_dist, c_er, g_co, g_dist, g_er)
 add_cannon(cannon4, cannons2)
 cannon5 = Cannon(785, 185, 'resources/canon2.png', c_dist, c_er, g_co, g_dist, g_er)
@@ -404,10 +406,12 @@ cannon4.down = True
 cannon5.down = True
 cannon6.down = True
 
+# создания расчётов к орудиям для первого игрока
 artillery(600, 600, batery1, C1)
 artillery(635, 600, batery1, C1)
 artillery(670, 600, batery1, C1)
 
+# создания расчётов к орудиям для второго игрока
 artillery(763, 600, batery2, C2)
 artillery(728, 600, batery2, C2)
 artillery(693, 600, batery2, C2)
